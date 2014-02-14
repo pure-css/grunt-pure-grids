@@ -1,6 +1,6 @@
 # grunt-pure-grids
 
-> Generate custom units for Pure Grids
+> Generate custom units for Pure Grids.
 
 ## Getting Started
 This plugin requires Grunt.
@@ -89,4 +89,7 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 _(Nothing yet)_
 
 ## License
-Copyright (c) 2013 Eric Ferraiuolo. Licensed under the BSD license.
+This software is free to use under the Yahoo! Inc. BSD license.
+See the [LICENSE file][] for license text and copyright information.
+
+[LICENSE file]: https://github.com/ericf/grunt-pure-grids/blob/master/LICENSE

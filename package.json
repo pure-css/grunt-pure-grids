@@ -1,7 +1,7 @@
 {
   "name": "grunt-pure-grids",
   "version": "0.0.1",
-  "description": "Generate custom units for Pure Grids",
+  "description": "Generate custom units for Pure Grids.",
   "homepage": "https://github.com/ericf/grunt-pure-grids",
   "repository": {
     "type": "git",
@@ -21,7 +21,8 @@
   },
   "licenses": [
     {
-      "type": "BSD"
+      "type": "BSD",
+      "url": "https://github.com/ericf/grunt-pure-grids/blob/master/LICENSE"
     }
   ],
   "devDependencies": {
