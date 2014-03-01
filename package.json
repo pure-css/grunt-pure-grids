@@ -12,6 +12,9 @@
     "name": "Eric Ferraiuolo",
     "email": "eferraiuolo@gmail.com"
   },
+  "contributors": [
+    "Tilo Mitra <tilomitra@gmail.com>"
+  ],
   "keywords": [
     "gruntplugin"
   ],
