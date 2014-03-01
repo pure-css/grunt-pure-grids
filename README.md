@@ -142,6 +142,7 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 ## Release History
 
 * 0.0.1: Initial release on npm.
+* 0.0.2: Added docs to README. (@tilomitra)
 
 ## License
 This software is free to use under the Yahoo! Inc. BSD license.
