@@ -25,7 +25,7 @@ module.exports = function (grunt) {
         this.files.forEach(function (fileGroup) {
             var css = rework('').use(pureGrids.units(units, options));
 
-            grunt.file.write(fileGroup.dest, css.toString(options));
+            grunt.file.write(fileGroup.orig.src[0], css.toString(options));
             grunt.log.writeln('File "' + fileGroup.dest + '" created.');
         });
     });
