@@ -33,20 +33,23 @@ module.exports = function (grunt) {
 
     // Configuration to be run (and then tested).
     pure_grids: {
-      default_options: {
+      custom_units: {
+        dest: 'tmp/custom_units.css',
         options: {
-        },
-        files: {
-          'tmp/default_options': ['test/fixtures/testing', 'test/fixtures/123']
+          units: 12
         }
       },
-      custom_options: {
+
+      custom_mqs: {
+        dest: 'tmp/custom_mqs.css',
         options: {
-          separator: ': ',
-          punctuation: ' !!!'
-        },
-        files: {
-          'tmp/custom_options': ['test/fixtures/testing', 'test/fixtures/123']
+          units: 12,
+          mediaQueries: {
+            sm : 'screen and (min-width: 35.5em)', // 568px
+            med: 'screen and (min-width: 48em)',   // 768px
+            lrg: 'screen and (min-width: 58em)',   // 928px
+            xl : 'screen and (min-width: 75em)'    // 1200px
+          }
         }
       }
     },

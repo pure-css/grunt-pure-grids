@@ -27,21 +27,22 @@ exports.pure_grids = {
     // setup here if necessary
     done();
   },
-  default_options: function (test) {
+  custom_units: function (test) {
     test.expect(1);
 
-    var actual = grunt.file.read('tmp/default_options');
-    var expected = grunt.file.read('test/expected/default_options');
-    test.equal(actual, expected, 'should describe what the default behavior is.');
+    var actual = grunt.file.read('tmp/custom_units.css');
+    var expected = grunt.file.read('test/expected/custom_units.css');
+    test.equal(actual, expected, 'should output Pure Grids CSS for 12 units.');
 
     test.done();
   },
-  custom_options: function (test) {
+
+  custom_mqs: function (test) {
     test.expect(1);
 
-    var actual = grunt.file.read('tmp/custom_options');
-    var expected = grunt.file.read('test/expected/custom_options');
-    test.equal(actual, expected, 'should describe what the custom option(s) behavior is.');
+    var actual = grunt.file.read('tmp/custom_mqs.css');
+    var expected = grunt.file.read('test/expected/custom_mqs.css');
+    test.equal(actual, expected, 'should output Pure Grids CSS for 12 units with custom Media Queries.');
 
     test.done();
   }
