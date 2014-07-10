@@ -1,6 +1,6 @@
 /*
  * grunt-pure-grids
- * https://github.com/ericf/grunt-pure-grids
+ * https://github.com/yahoo/grunt-pure-grids
  *
  * Copyright 2013 Yahoo! Inc.
  * Licensed under the Yahoo! Inc. BSD license.

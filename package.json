@@ -2,12 +2,12 @@
   "name": "grunt-pure-grids",
   "version": "0.0.2",
   "description": "Generate custom units for Pure Grids.",
-  "homepage": "https://github.com/ericf/grunt-pure-grids",
+  "homepage": "https://github.com/yahoo/grunt-pure-grids",
   "repository": {
     "type": "git",
-    "url": "git://github.com/ericf/grunt-pure-grids.git"
+    "url": "git://github.com/yahoo/grunt-pure-grids.git"
   },
-  "bugs": "git://github.com/ericf/grunt-pure-grids.git/issues",
+  "bugs": "git://github.com/yahoo/grunt-pure-grids.git/issues",
   "author": {
     "name": "Eric Ferraiuolo",
     "email": "eferraiuolo@gmail.com"
@@ -25,7 +25,7 @@
   "licenses": [
     {
       "type": "BSD",
-      "url": "https://github.com/ericf/grunt-pure-grids/blob/master/LICENSE"
+      "url": "https://github.com/yahoo/grunt-pure-grids/blob/master/LICENSE"
     }
   ],
   "devDependencies": {
