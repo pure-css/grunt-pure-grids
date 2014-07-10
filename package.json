@@ -1,6 +1,6 @@
 {
   "name": "grunt-pure-grids",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "Generate custom units for Pure Grids.",
   "homepage": "https://github.com/yahoo/grunt-pure-grids",
   "repository": {
