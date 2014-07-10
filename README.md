@@ -141,8 +141,9 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 
 ## Release History
 
-* 0.0.1: Initial release on npm.
+* 1.0.0: __Stable__, Added unit tests, moved to Yahoo org on GitHub.
 * 0.0.2: Added docs to README. (@tilomitra)
+* 0.0.1: Initial release on npm.
 
 ## License
 This software is free to use under the Yahoo! Inc. BSD license.
