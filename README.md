@@ -25,14 +25,14 @@ In your project's Gruntfile, add a section named `pure_grids` to the data object
 ```js
 grunt.initConfig({
     pure_grids: {
-        dest : 'path/to/my-responsive-grid.css',
+        dest: 'path/to/my-responsive-grid.css',
         options: {
-            units: 12, //12-column grid
+            units: 12, // 12-column grid
             mediaQueries: {
-                sm : 'screen and (min-width: 35.5em)', // 568px
-                med: 'screen and (min-width: 48em)',   // 768px
-                lrg: 'screen and (min-width: 58em)',   // 928px
-                xl : 'screen and (min-width: 75em)'    // 1200px
+                sm: 'screen and (min-width: 35.5em)', // 568px
+                md: 'screen and (min-width: 48em)',   // 768px
+                lg: 'screen and (min-width: 64em)',   // 1024px
+                xl: 'screen and (min-width: 80em)'    // 1280px
             }
         }
     }
@@ -51,7 +51,7 @@ Determines how many columns your grid should have. If `undefined`, it only gener
 Type: `Object`
 Default value: `undefined`
 
-Used to generate responsive grids. Pass an object where the `key` denotes the grid key, and the `property` denotes the media query breakpoint. (ex: `{md: min-width: 48em}` would generate `.pure-u-md-*` class names that were active when the viewport was `>= 48em`)
+Used to generate responsive grids. Pass an object where the `key` denotes the grid key, and the `property` denotes the media query breakpoint (e.g., `{ FOO: 'screen and (min-width: 48em)' }` would generate `.pure-u-FOO-*` class names that become active when the viewport is `>= 48em`).
 
 #### options.includeOldIEWidths
 Type: `Boolean`
