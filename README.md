@@ -83,15 +83,17 @@ Determines the prefix for each grid class name.
 
 ### Usage Examples
 
-#### Default Options
+#### No Media Queries
 In this example, we just create a regular 12-column Pure grid.
 
 ```js
 grunt.initConfig({
     pure_grids: {
-        dest : 'path/to/my-grid.css',
-        options: {
-            units: 12, //12-column grid
+        twelveCols: {
+            dest: 'path/to/my-grid.css',
+            options: {
+                units: 12, //12-column grid
+            }
         }
     }
 });
@@ -103,14 +105,16 @@ In this example, we create a 6-column responsive grid with breakpoints at `48em`
 ```js
 grunt.initConfig({
     pure_grids: {
-        dest : 'path/to/my-responsive-grid.css',
-        options: {
-            units: 6, //6-column grid,
-            mediaQueries: {
-                md: 'screen and (min-width: 48em)', //768px
-                lg: 'screen and (min-width: 60em)'  //960px
-            },
-            selectorPrefix: '.col-'
+        responsive: {
+            dest: 'path/to/my-responsive-grid.css',
+            options: {
+                units: 6, // 6-column grid,
+                mediaQueries: {
+                    md: 'screen and (min-width: 48em)', //768px
+                    lg: 'screen and (min-width: 60em)'  //960px
+                },
+                selectorPrefix: '.col-'
+            }
         }
     }
 });
