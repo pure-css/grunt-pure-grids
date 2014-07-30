@@ -18,15 +18,16 @@ module.exports = function (grunt) {
             indent: '    '
         });
 
-        var units = options.units;
+        var dest = this.data,
+            units = options.units;
         delete options.units;
 
         // Iterate over all specified file groups.
         this.files.forEach(function (fileGroup) {
             var css = rework('').use(pureGrids.units(units, options));
 
-            grunt.file.write(fileGroup.dest, css.toString(options));
-            grunt.log.writeln('File "' + fileGroup.dest + '" created.');
+            grunt.file.write(dest, css.toString(options));
+            grunt.log.writeln('File "' + dest + '" created.');
         });
     });
 
