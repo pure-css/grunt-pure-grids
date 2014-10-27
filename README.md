@@ -65,7 +65,7 @@ Determines whether or not each grid unit should have an accompanying `*width` va
 Type: `Boolean`
 Default value: `true`
 
-Determines whether or not the output should only include the reduced fractions. Setting this to `true` means that all grid classnames would be provided in their reduced form (ex: `.pure-u-md-2-4` would be renamed to `.pure-u-md-1-2`). Setting this to `false` will output class names in their regular **and** reduced fractional form.
+Determines whether or not the output should only include the reduced fractions. Setting this to `true` means that all grid classnames would be provided in their regular **and** reduced fractional form reduced form (ex: `.pure-u-md-2-4` and `.pure-u-md-1-2` will be outputted). Setting this to `false` will only output class names in their regular form where the denominator is always equal to the value provided at `options.units`.
 
 #### options.decimals
 Type: `Integer`
