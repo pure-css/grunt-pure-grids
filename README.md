@@ -1,5 +1,7 @@
 # grunt-pure-grids
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/yahoo/grunt-pure-grids.svg)](https://greenkeeper.io/)
+
 > Generate custom grid units for [Pure Grids](http://purecss.io/grids).
 
 ## Getting Started
