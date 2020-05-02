@@ -147,6 +147,7 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 
 ## Release History
 
+* 2.0.0: Upgrade to rework-pure-grids@2.0.0
 * 1.0.2: Update README examples, _again_.
 * 1.0.1: Update README examples.
 * 1.0.0: __Stable__, Added unit tests, moved to Yahoo org on GitHub.
